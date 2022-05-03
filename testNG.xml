@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression" verbose="1">
+    <test name="all-tests">
+        <packages>
+             <package name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts"/>
+            <package name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts"/>
+            <package name="com.Hcl.DirectCommerce.Orders_with_backorder_items"/>
+            <package name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride"/>
+            <package name="com.Hcl.DirectCommerce.SearchCustomer"/>  
+        </packages> 
+   
+        <classes>
+            <class name="com.Hcl.DirectCommerce.CustomerCreation.create_Customer_ONE"/>
+            <class name="com.Hcl.DirectCommerce.CustomerCreation.create_Customer_TWO"/>
+            <class name="com.Hcl.DirectCommerce.CustomerCreation.create_Customer_THREE"/>
+             <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_C1_item_and_override_the_price"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_C3_item_and_override_the_price"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E1_item_and_override_the_price_for_components"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E2_item_and_override_the_price_on_header_both_header_and_component"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E2_item_and_override_the_price_on_header"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E5_item_and_override_the_price_for_components"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E6_item_and_override_the_price_on_header_both_header_and_component"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E6_item_and_override_the_price_on_header"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K1_item_and_override_the_price"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K2_item_and_override_the_price"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K3_item_and_override_the_price"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K4_item_and_override_the_price"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_R1_item_and_override_the_price"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_T1_item_and_override_the_price"/>
+            <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_T2_item_and_override_the_price"/> 
+            
+          <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_C1_product"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_C2_product"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E1_product"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E2_product"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E5_product"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E6_product"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K1_product"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K2_product"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K3_product"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K4_product"/> 
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_R1_product"/>
+           <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_T1_product"/> 
+             <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E6_product"/>
+           <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E2_product"/> 
+             <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_T2_product_WITHOUT_STOCK"/>
+            <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_T2_product"/>  
+           
+        <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C1_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C1_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C3_item_and_override_the_quantity_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C3_item_and_override_the_quantity_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E1_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E1_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E2_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E2_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E5_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E5_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E6_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E6_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K1_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder"/> 
+             <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K1_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K2_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder"/> 
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K2_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K3_in_stock_item_and_override_the_quantity_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K3_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder"/>    
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K4_out_of_stock_prompting_product_OOS_item_and_override_the_quantity_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K4_out_of_stock_prompting_product_OOS_item_and_override_the_quantity_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_R1_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_R1_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_T2_Out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_T2_Out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder"/>
+             
+   
+             <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_C1_item_and_override_the_quantity_and_price"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_C3_item_and_override_the_quantity_and_price"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E1_item_and_override_the_quantity_at_header_and_component_level_price_override_for_components"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E2_item_and_override_the_quantity_at_header_and_component_level_price_override_for_both_header_and_components_level"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E5_item_and_override_the_quantity_at_header_and_component_level_price_override_for_components"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E6_item_and_override_the_quantity_at_header_price_override_for_both_header_and_components"/>
+           <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K1_in_stock_item_and_override_the_quantity_and_price"/>
+           <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K2_in_stock_item_and_override_the_quantity_and_price"/>
+           <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K3_in_stock_item_and_override_the_quantity_and_price"/>
+           <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K4_in_stock_item_and_override_the_quantity_and_price"/>
+           <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_R1_in_stock_item_and_override_the_quantity_and_price"/>
+           <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_T1_item_and_override_the_quantity_and_price"/>
+           <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_T2_instock_item_and_override_the_quantity_and_price"/> 
+           
+           
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_by_passing_blank_values"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_by_passing_incorrect_password"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_by_providing_the_new_password"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_in_which_confirm_new_password"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_change_password_navigations_negative_scenario"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_password_navigations_negative"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_password_navigations"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_new_password_is_not_matching"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_password_trying_to_use_the_old_password"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_ChangeReset_password_navigations"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_by_passing_username_which_doestnot_exist"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_bypassing_BlankValues_A"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_bypassing_BlankValues_B"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_in_which_confirm_new_password"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_password_navigations_negative_scenario"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_password_trying_to_use_the_old_password"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_which_confirm_newpassword_notMatching"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_the_Login_Correct_User_Name_and_password"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.Verify_the_Login_InCorrect_User_Name_and_password"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.VerifyResetPassword"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.VerifytheLoginPage"/>
+            <class name="com.Hcl.DirectCommerce.LoginPage.VerifytheLoginpageWithBlankField"/> 
+            
+           
+          <!--  <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_C1_item_with_Gift_Card_pay_method_Fully_Paid"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_C2_item_with_Gift_Card_pay_method_Fully_Paid"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_E1_item_with_Gift_Certficate_pay_method_Fully_Paid"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_E2_item_with_Gift_Card_pay_method_Fully_Paid"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_E5_item_with_Gift_Card_pay_method_Fully_Paid"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_E6_item_with_Gift_Card_pay_method_Fully_Paid"/> 
+             <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K1_item_with_Gift_Coupon_pay_method_Fully_Paid"/> 
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid"/>
+           <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K4_item_with_Gift_Certificate_pay_method_Fully_Paid"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_R1_item_with_Gift_Coupon_Pay_method_Fully_Paid"/> 
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_T2_instock_item_with_Gift_Coupon_pay_method_Fully_Paid"/> 
+             -->
+            
+            
+            
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_C1_item_with_VI_pay_method_online_authorize"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_C3_item_with_MC_pay_method_online_authorize"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_E1_item_with_VI_pay_method_online_authorize"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_E2_item_with_MC_pay_method_online_authorize"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_E6_item_with_DI_pay_method_online_authorize"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.place_a_phone_order_for_K1_item_with_DI_pay_method_online_authorize"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_K2_item_with_VI_pay_method_online_authorize"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_K3_item_with_MC_pay_method_online_authorize"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_R1_item_with_VI_pay_method_online_authorize"/>
+            <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_T1_item_with_MC_pay_method_online_authorize"/> 
+       
+             
+        </classes>  
+    </test>
+    
+    <test name="packagewiserun">
+    <!-- <packages>
+            <package name=""/>  
+        </packages> -->
+    </test>
+    
+</suite>

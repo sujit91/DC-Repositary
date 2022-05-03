@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regression]">
+  <test name="all-tests(failed)">
+    <classes>
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_C2_product">
+        <methods>
+          <include name="C2_OA"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_C2_product -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_new_password_is_not_matching">
+        <methods>
+          <include name="VerifyChange_Password_new_password_is_not_matching"/>
+          <include name="Tc2"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_new_password_is_not_matching -->
+      <class name="com.Hcl.DirectCommerce.CustomerCreation.create_Customer_THREE">
+        <methods>
+          <include name="CC03"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.CustomerCreation.create_Customer_THREE -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_C3_item_and_override_the_price">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="C3_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_C3_item_and_override_the_price -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_T2_instock_item_and_override_the_quantity_and_price">
+        <methods>
+          <include name="T2_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_T2_instock_item_and_override_the_quantity_and_price -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C1_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder">
+        <methods>
+          <include name="C1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C1_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Serial_Number">
+        <methods>
+          <include name="CS_028"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Serial_Number -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_E6_item_with_DI_pay_method_online_authorize">
+        <methods>
+          <include name="E6_DI"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_E6_item_with_DI_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E6_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_and_select_No_to_backorder">
+        <methods>
+          <include name="E6_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E6_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E5_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_yes_to_backorder">
+        <methods>
+          <include name="E5_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E5_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_R1_item_and_override_the_price">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="R1_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_R1_item_and_override_the_price -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Pick_Ticket_Number">
+        <methods>
+          <include name="CS_027"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Pick_Ticket_Number -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_T1_product">
+        <methods>
+          <include name="T1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_T1_product -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K3_product">
+        <methods>
+          <include name="K3_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K3_product -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Tracking_Number">
+        <methods>
+          <include name="CS_020"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Tracking_Number -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E2_item_and_override_the_quantity_at_header_and_component_level_price_override_for_both_header_and_components_level">
+        <methods>
+          <include name="E2_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E2_item_and_override_the_quantity_at_header_and_component_level_price_override_for_both_header_and_components_level -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E5_item_and_override_the_price_for_components">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="E5_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E5_item_and_override_the_price_for_components -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Group_Number">
+        <methods>
+          <include name="CS_024"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Group_Number -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.place_a_phone_order_for_K1_item_with_DI_pay_method_online_authorize">
+        <methods>
+          <include name="K1_DI"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.place_a_phone_order_for_K1_item_with_DI_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_PO_Number">
+        <methods>
+          <include name="CS_018"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_PO_Number -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_E2_item_with_MC_pay_method_online_authorize">
+        <methods>
+          <include name="K4_MC"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_E2_item_with_MC_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_T2_product">
+        <methods>
+          <include name="T2_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_T2_product -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C3_item_and_override_the_quantity_and_select_No_to_backorder">
+        <methods>
+          <include name="K4_MC"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C3_item_and_override_the_quantity_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K1_item_and_override_the_price">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="K1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K1_item_and_override_the_price -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K1_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder">
+        <methods>
+          <include name="K1_OA_OUTOFSTOCK"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K1_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_T1_item_with_MC_pay_method_online_authorize">
+        <methods>
+          <include name="R1_VI"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_T1_item_with_MC_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_bypassing_BlankValues_B">
+        <methods>
+          <include name="VerifyReset_Password_bypassing_BlankValues_B"/>
+          <include name="Tc"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_bypassing_BlankValues_B -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K2_in_stock_item_and_override_the_quantity_and_price">
+        <methods>
+          <include name="K2_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K2_in_stock_item_and_override_the_quantity_and_price -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E1_product">
+        <methods>
+          <include name="E1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E1_product -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_which_confirm_newpassword_notMatching">
+        <methods>
+          <include name="VerifyResetPasswordwhichconfirmnewpasswordnotMatching"/>
+          <include name="Tc"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_which_confirm_newpassword_notMatching -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME_ZIPCODE">
+        <methods>
+          <include name="CS_004"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME_ZIPCODE -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_R1_product">
+        <methods>
+          <include name="R1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_R1_product -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E2_item_and_override_the_price_on_header">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="E2_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E2_item_and_override_the_price_on_header -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_C3_item_with_MC_pay_method_online_authorize">
+        <methods>
+          <include name="K4_MC"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_C3_item_with_MC_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K2_product">
+        <methods>
+          <include name="K2_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K2_product -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E2_product">
+        <methods>
+          <include name="E2_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E2_product -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.VerifytheLoginPage">
+        <methods>
+          <include name="Tc1"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.VerifytheLoginPage -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_R1_item_with_VI_pay_method_online_authorize">
+        <methods>
+          <include name="R1_VI"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_R1_item_with_VI_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_C1_product">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="C1_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_C1_product -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_K2_item_with_VI_pay_method_online_authorize">
+        <methods>
+          <include name="K1_DI"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_K2_item_with_VI_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K1_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder">
+        <methods>
+          <include name="K1_OA_OUTOFSTOCK"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K1_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_T1_item_and_override_the_price">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="T1_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_T1_item_and_override_the_price -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_T1_item_and_override_the_quantity_and_price">
+        <methods>
+          <include name="T1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_T1_item_and_override_the_quantity_and_price -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K3_item_and_override_the_price">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="K3_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K3_item_and_override_the_price -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_R1_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder">
+        <methods>
+          <include name="R1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_R1_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Auto_PO_Number">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Auto_PO_Number -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K2_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder">
+        <methods>
+          <include name="K1_OA_OUTOFSTOCK"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K2_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_ChangeReset_password_navigations">
+        <methods>
+          <include name="Tc2"/>
+          <include name="VerifyChangeReset_password_navigations"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_ChangeReset_password_navigations -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E1_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_No_to_backorder">
+        <methods>
+          <include name="E1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E1_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.CustomerCreation.create_Customer_TWO">
+        <methods>
+          <include name="CC02"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.CustomerCreation.create_Customer_TWO -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K2_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder">
+        <methods>
+          <include name="K1_OA_OUTOFSTOCK"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K2_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E6_product">
+        <methods>
+          <include name="E6_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E6_product -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E1_item_and_override_the_price_for_components">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="E1_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E1_item_and_override_the_price_for_components -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C3_item_and_override_the_quantity_and_select_yes_to_backorder">
+        <methods>
+          <include name="K4_MC"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C3_item_and_override_the_quantity_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_password_navigations">
+        <methods>
+          <include name="VerifyChange_password_navigations"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Change_password_navigations -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_the_Login_InCorrect_User_Name_and_password">
+        <methods>
+          <include name="VerifytheLoginInCorrectUserNameAndpassword"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_the_Login_InCorrect_User_Name_and_password -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_invalid_Phone_Number">
+        <methods>
+          <include name="CS_013"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_invalid_Phone_Number -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E5_item_and_override_the_quantity_at_header_and_component_level_price_override_for_components">
+        <methods>
+          <include name="E5_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E5_item_and_override_the_quantity_at_header_and_component_level_price_override_for_components -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K3_in_stock_item_and_override_the_quantity_and_price">
+        <methods>
+          <include name="K3_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K3_in_stock_item_and_override_the_quantity_and_price -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Invoice">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Invoice -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_valid_Email_Address">
+        <methods>
+          <include name="CS_008"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_valid_Email_Address -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_CustomerUsingNormalSearch_NAME_STREET">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CS_009"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_CustomerUsingNormalSearch_NAME_STREET -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K3_in_stock_item_and_override_the_quantity_and_select_No_to_backorder">
+        <methods>
+          <include name="K1_OA_OUTOFSTOCK"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K3_in_stock_item_and_override_the_quantity_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.VerifyResetPassword">
+        <methods>
+          <include name="Tc2"/>
+          <include name="Tc16"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.VerifyResetPassword -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.searchForaCustomerUsingNormalSearch_NAME_ZIPCODE">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CS_005"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.searchForaCustomerUsingNormalSearch_NAME_ZIPCODE -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_invalid_Email_Address">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CS_008"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_invalid_Email_Address -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E6_item_and_override_the_price_on_header_both_header_and_component">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="E6_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E6_item_and_override_the_price_on_header_both_header_and_component -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_C1_item_and_override_the_price">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="C1_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_C1_item_and_override_the_price -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K2_item_and_override_the_price">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="K2_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K2_item_and_override_the_price -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K4_item_and_override_the_price">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="K4_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_K4_item_and_override_the_price -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_by_passing_incorrect_password">
+        <methods>
+          <include name="Tc2"/>
+          <include name="VerifyChangePasswordbypassingincorrectpassword"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_by_passing_incorrect_password -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_by_providing_the_new_password">
+        <methods>
+          <include name="Tc2"/>
+          <include name="VerifyChange_Password_by_providing_the_new_password"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_by_providing_the_new_password -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Check_Number">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CS_022"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Check_Number -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Order_Number">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CS_016"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Order_Number -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E2_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_No_to_backorder">
+        <methods>
+          <include name="E2_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E2_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K3_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder">
+        <methods>
+          <include name="K1_OA_OUTOFSTOCK"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K3_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E2_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_yes_to_backorder">
+        <methods>
+          <include name="E2_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E2_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E2_item_and_override_the_price_on_header_both_header_and_component">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="E1_OA"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E2_item_and_override_the_price_on_header_both_header_and_component -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME_STREET">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="CS_008"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME_STREET -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_R1_in_stock_item_and_override_the_quantity_and_price">
+        <methods>
+          <include name="R1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_R1_in_stock_item_and_override_the_quantity_and_price -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K4_out_of_stock_prompting_product_OOS_item_and_override_the_quantity_and_select_yes_to_backorder">
+        <methods>
+          <include name="K4_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K4_out_of_stock_prompting_product_OOS_item_and_override_the_quantity_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.CustomerCreation.create_Customer_ONE">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CC01"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.CustomerCreation.create_Customer_ONE -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K4_out_of_stock_prompting_product_OOS_item_and_override_the_quantity_and_select_No_to_backorder">
+        <methods>
+          <include name="K4_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_K4_out_of_stock_prompting_product_OOS_item_and_override_the_quantity_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_T2_item_and_override_the_price">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="T2_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_T2_item_and_override_the_price -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Membership_Number">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CS_026"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Membership_Number -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_C1_item_and_override_the_quantity_and_price">
+        <methods>
+          <include name="C1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_C1_item_and_override_the_quantity_and_price -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_password_navigations_negative_scenario">
+        <methods>
+          <include name="VerifyResetpassword_navigations_negative_scenario"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Reset_password_navigations_negative_scenario -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_change_password_navigations_negative_scenario">
+        <methods>
+          <include name="Verifychange_password_navigations_negative_scenario"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_change_password_navigations_negative_scenario -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E5_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_No_to_backorder">
+        <methods>
+          <include name="E5_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E5_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_password_navigations_negative">
+        <methods>
+          <include name="VerifyChange_password_navigations_negative"/>
+          <include name="Tc2"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Change_password_navigations_negative -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_C3_item_and_override_the_quantity_and_price">
+        <methods>
+          <include name="C3_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_C3_item_and_override_the_quantity_and_price -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E1_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_yes_to_backorder">
+        <methods>
+          <include name="E1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E1_out_of_stock_item_and_override_the_quantity_at_header_level_as_well_as_after_kit_explodes_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_searchNAME_STATE">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_searchNAME_STATE -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C1_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder">
+        <methods>
+          <include name="C1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_C1_out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Customer_Number">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Customer_Number -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_by_passing_blank_values">
+        <methods>
+          <include name="VerifyChangePasswordbypassingblankvalues"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_by_passing_blank_values -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K1_in_stock_item_and_override_the_quantity_and_price">
+        <methods>
+          <include name="K1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K1_in_stock_item_and_override_the_quantity_and_price -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_E1_item_with_VI_pay_method_online_authorize">
+        <methods>
+          <include name="K4_MC"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_E1_item_with_VI_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.VerifytheLoginpageWithBlankField">
+        <methods>
+          <include name="Tc2"/>
+          <include name="Tc4"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.VerifytheLoginpageWithBlankField -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E1_item_and_override_the_quantity_at_header_and_component_level_price_override_for_components">
+        <methods>
+          <include name="E1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E1_item_and_override_the_quantity_at_header_and_component_level_price_override_for_components -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_the_Login_Correct_User_Name_and_password">
+        <methods>
+          <include name="VerifytheLoginCorrectUserNameandpassword"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_the_Login_Correct_User_Name_and_password -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_valid_ZipAddress">
+        <methods>
+          <include name="CS_012"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_valid_ZipAddress -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_bypassing_BlankValues_A">
+        <methods>
+          <include name="VerifyReset_Password_bypassing_BlankValues_A"/>
+          <include name="Tc2"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_bypassing_BlankValues_A -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_C1_item_with_VI_pay_method_online_authorize">
+        <methods>
+          <include name="K4_MC"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_C1_item_with_VI_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME_CITY">
+        <methods>
+          <include name="CS_006"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME_CITY -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_T2_Out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder">
+        <methods>
+          <include name="T2_OUTOFSTOCK_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_T2_Out_of_stock_item_and_override_the_quantity_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E6_item_and_override_the_quantity_at_header_price_override_for_both_header_and_components">
+        <methods>
+          <include name="E6_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_E6_item_and_override_the_quantity_at_header_price_override_for_both_header_and_components -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_in_which_confirm_new_password">
+        <methods>
+          <include name="Tc2"/>
+          <include name="VerifyChange_Password_in_which_confirm_new_password"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Change_Password_in_which_confirm_new_password -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E5_product">
+        <methods>
+          <include name="E5_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_E5_product -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME_STATE">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CS_003"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_normal_search_NAME_STATE -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_T2_product_WITHOUT_STOCK">
+        <methods>
+          <include name="T2_OUTOFSTOCK_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_T2_product_WITHOUT_STOCK -->
+      <class name="com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E6_item_and_override_the_price_on_header">
+        <methods>
+          <include name="E6_OA"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Order_Diff_Products_Price_Override.Place_a_phone_order_for_E6_item_and_override_the_price_on_header -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_password_trying_to_use_the_old_password">
+        <methods>
+          <include name="Tc2"/>
+          <include name="VerifyResetpassword_trying_t_use_the_old_password"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Reset_password_trying_to_use_the_old_password -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_in_which_confirm_new_password">
+        <methods>
+          <include name="Tc2"/>
+          <include name="VerifyResetPassword_in_which_confirm_new_password"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_in_which_confirm_new_password -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_by_passing_username_which_doestnot_exist">
+        <methods>
+          <include name="Tc2"/>
+          <include name="VerifyReset_Password_by_passing_username_which_doestnot_exist"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Reset_Password_by_passing_username_which_doestnot_exist -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K4_in_stock_item_and_override_the_quantity_and_price">
+        <methods>
+          <include name="K4_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Quantity_and_PriceOverride.Place_a_phone_order_for_K4_in_stock_item_and_override_the_quantity_and_price -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_valid_Phone_Number">
+        <methods>
+          <include name="CS_013"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_valid_Phone_Number -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_R1_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder">
+        <methods>
+          <include name="R1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_R1_out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_K3_item_with_MC_pay_method_online_authorize">
+        <methods>
+          <include name="K3_MC"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_credit_card_as_paymethod.Place_a_phone_order_for_K3_item_with_MC_pay_method_online_authorize -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K1_product">
+        <methods>
+          <include name="K1_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K1_product -->
+      <class name="com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K4_product">
+        <methods>
+          <include name="K4_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.OrderLifeCycle_DiffProducts.Place_an_order_for_K4_product -->
+      <class name="com.Hcl.DirectCommerce.LoginPage.Verify_Change_password_trying_to_use_the_old_password">
+        <methods>
+          <include name="VerifyChange_password_trying_to_use_the_old_password"/>
+          <include name="Tc2"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.LoginPage.Verify_Change_password_trying_to_use_the_old_password -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.Search_for_a_customer_using_invalid_ZipAddress">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.Search_for_a_customer_using_invalid_ZipAddress -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_PACKAG_EID">
+        <methods>
+          <include name="CS_019"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_PACKAG_EID -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_For_a_CustomerUsingNormalSearch_NAME_CITY">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CS_007"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_For_a_CustomerUsingNormalSearch_NAME_CITY -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_T2_Out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder">
+        <methods>
+          <include name="T2_OUTOFSTOCK_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_T2_Out_of_stock_item_and_override_the_quantity_and_select_No_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E6_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_and_select_yes_to_backorder">
+        <methods>
+          <include name="E6_OA"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_backorder_items.Place_a_phone_order_for_E6_out_of_stock_items_including_prompting_prod_and_override_the_quantity_at_header_level_and_select_yes_to_backorder -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_RA_Number">
+        <methods>
+          <include name="CS_028"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_RA_Number -->
+      <class name="com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Drop_Ship_PO">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="CS_023"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.SearchCustomer.search_for_a_customer_using_Drop_Ship_PO -->
+    </classes>
+  </test> <!-- all-tests(failed) -->
+</suite> <!-- Failed suite [regression] -->

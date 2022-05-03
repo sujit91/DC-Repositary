@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Hcl.DirectCommerce.Modifyorder.Verify_Modify_order_by_changing_the_PM_from_OA_to_PX">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="R1_OA"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.Hcl.DirectCommerce.Modifyorder.Verify_Modify_order_by_changing_the_PM_from_OA_to_PX -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

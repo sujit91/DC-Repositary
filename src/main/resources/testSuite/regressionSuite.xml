@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+    <listeners>
+        <!-- <listener class-name=""></listener> -->
+        <listener class-name=""></listener>
+    </listeners>
+    <test name="A">
+        <classes>
+            <class name=""></class>
+        </classes>
+    </test>
+     <test name="B">
+        <classes>
+            <class name=""></class>
+        </classes>
+    </test>
+     <test name="C">
+        <classes>
+            <class name=""></class>
+        </classes>
+    </test>
+</suite>

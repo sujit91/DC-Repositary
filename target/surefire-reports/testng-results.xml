@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regression" duration-ms="1142137" started-at="2020-11-24T10:29:24Z" finished-at="2020-11-24T10:48:26Z">
+    <groups>
+    </groups>
+    <test name="all-tests" duration-ms="1142121" started-at="2020-11-24T10:29:24Z" finished-at="2020-11-24T10:48:26Z">
+      <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid@96442d]" name="beforeMethod" is-config="true" duration-ms="5076" started-at="2020-11-24T16:12:01Z" finished-at="2020-11-24T16:12:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid.T1_OA() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="T1_OA()[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid@96442d]" name="T1_OA" duration-ms="379715" started-at="2020-11-24T16:12:06Z" description="Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid" finished-at="2020-11-24T16:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1_OA -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid@96442d]" name="afterMethod" is-config="true" duration-ms="458" started-at="2020-11-24T16:18:26Z" finished-at="2020-11-24T16:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T1_OA status=SUCCESS method=Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid.T1_OA()[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid@96442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_T1_item_with_Gift_Coupon_pay_method_Fully_Paid -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid@135b478]" name="beforeMethod" is-config="true" duration-ms="6144" started-at="2020-11-24T15:59:24Z" finished-at="2020-11-24T15:59:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid.K2_OA() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="K2_OA()[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid@135b478]" name="K2_OA" duration-ms="407093" started-at="2020-11-24T15:59:30Z" description="Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid" finished-at="2020-11-24T16:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- K2_OA -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid@135b478]" name="afterMethod" is-config="true" duration-ms="721" started-at="2020-11-24T16:06:17Z" finished-at="2020-11-24T16:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=K2_OA status=SUCCESS method=Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid.K2_OA()[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid@135b478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K2_item_with_Gift_Certificate_pay_method_Fully_Paid -->
+      <class name="com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid@9f9fb0]" name="beforeMethod" is-config="true" duration-ms="5117" started-at="2020-11-24T16:06:18Z" finished-at="2020-11-24T16:06:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid.K3_OA() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="K3_OA()[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid@9f9fb0]" name="K3_OA" duration-ms="337294" started-at="2020-11-24T16:06:23Z" description="Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid" finished-at="2020-11-24T16:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- K3_OA -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid@9f9fb0]" name="afterMethod" is-config="true" duration-ms="487" started-at="2020-11-24T16:12:01Z" finished-at="2020-11-24T16:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=K3_OA status=SUCCESS method=Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid.K3_OA()[pri:0, instance:com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid@9f9fb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.Hcl.DirectCommerce.Orders_with_Additional_Pay_methods_gift_coupon_cert.Place_a_phone_order_for_K3_item_with_Gift_Certificate_pay_method_Fully_Paid -->
+    </test> <!-- all-tests -->
+    <test name="packagewiserun" duration-ms="0" started-at="2020-11-24T10:48:26Z" finished-at="2020-11-24T10:48:26Z">
+    </test> <!-- packagewiserun -->
+  </suite> <!-- regression -->
+</testng-results>
