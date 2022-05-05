@@ -8205,3 +8205,4 @@
 2022-04-29 17:04:872 INFO  LoginPage:117 - username has been provided
 2022-04-29 17:04:22 INFO  LoginPage:122 - password has been provided
 2022-04-29 17:04:241 INFO  LoginPage:125 - clicked in login button
+2022-05-03 21:05:781 INFO  TestBase:150 - Initialize Web driver: 11993056
